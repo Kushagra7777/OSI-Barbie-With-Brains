@@ -106,7 +106,7 @@ if __name__ == "__main__":
             results = wikipedia.summary(query, sentences=2)
             speak("According to wikipedia")
             print(results)
-            speak(result)
+            speak(results)   
 
         #elif 'alphabets' or 'alphabet' in query:
             #alphabetss()  
